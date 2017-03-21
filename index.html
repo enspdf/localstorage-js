@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nivel 2</title>
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h2>LocalStorage</h2>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="lastName" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn btn-success" id="btnSave">Enviar</button>
+                <button class="btn btn-info" id="btnShow">Ver Datos</button>
+                <button class="btn btn-warning pull-right" id="btnClear">Limpiar LocalStorage</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: none;" id="popup-container">
+        <div class="row">
+            <table class="table table-stripped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
